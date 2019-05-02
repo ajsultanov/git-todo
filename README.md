@@ -2,17 +2,26 @@
 "# git-todo (h1)"
 
 ## Yes (h2)
+"## Yes (h2)"
 
 ### whats this (h3)
+"### whats this (h3)"
 
 #### bolded also?
+"#### bolded also?"
 
 ##### something else
+"##### something else"
 
 Here is an ordered list.
-1.  first
+1. first
 2. second
 3. third
+
+" Here is an ordered list.
+1. first
+2. second
+3. third "
 
 /slashees?/
 
