@@ -33,3 +33,9 @@ unordered list?
 * three
 
 > side note thing?
+
+you can tell it which kind of syntax highlighting to use
+```ruby
+class Student < ActiveRecord::Base
+end
+```
