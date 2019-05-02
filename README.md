@@ -15,6 +15,14 @@
 _italic text_
 
 **_bold italic text_ next to bold text**
+
 _**bold italic text** next to italic text_
+
+~~strikethrough text~~
+
+Quoted text:
+>is quoted
+
+
 
 
