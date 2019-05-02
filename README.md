@@ -30,7 +30,20 @@ you can quote
 multi-line code
 as well
 ```
-
-
+You can also let them know how to format syntax highlighting
+ruby:
+```ruby
+5.times do |i|
+  puts i * i
+end
+```
+sql:
+```sql
+CREATE TABLE puppies (
+  id INTEGER PRIMARY KEY,
+  name TEXT,
+  breed TEXT
+  )
+```
 
 
