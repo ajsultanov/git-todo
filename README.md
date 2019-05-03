@@ -38,10 +38,16 @@ _**bold italic text** next to italic text_
 Quoted text:
 >is quoted
 
-`Quoted text:
->is quoted`
+```
+Quoted text:
+>is quoted
+```
 
 This is how you `quote code`
+```
+This is how you `quote code`
+```
+
 
 ```
 you can quote
