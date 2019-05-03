@@ -1,4 +1,5 @@
 # Big Heading
+headings automatically create anchors
 
 ## Second Heading
 
@@ -9,6 +10,8 @@
 ##### Fifth Heading
 
 ###### Sixth Heading
+
+#link-to-heading
 
 **bold text**
 
