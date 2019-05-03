@@ -18,8 +18,7 @@ headings automatically create anchors
 ###### Sixth Heading
 `###### Sixth Heading`
 
-[link to heading anchor](#big-heading)
-`[link to heading anchor](#big-heading)`
+## Text Formatting
 
 **bold text**
 `**bold text**`
@@ -44,6 +43,7 @@ Quoted text:
 >is quoted
 ```
 
+## Code Snippets
 
 This is how you `quote code`
 ```
@@ -57,7 +57,6 @@ as well
 with three back-ticks
 (```)
 ```
-
 
 You can also let them know how to format syntax highlighting
 
@@ -78,12 +77,16 @@ CREATE TABLE puppies (
   )
 ```
 ` ```sql`
-
-
+  
+## Links
 
 Here is how you add a [link](google.com)
 
 `Here is how you add a [link](google.com)`
+
+
+[link to heading anchor](#big-heading)
+`[link to heading anchor](#big-heading)`
 
 
 more..........
