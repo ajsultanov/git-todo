@@ -21,17 +21,25 @@ headings automatically create anchors
 `[link to heading anchor](#big-heading)`
 
 **bold text**
+`**bold text`
 
 _italic text_
+`_italic text_`
 
 **_bold italic text_ next to bold text**
+`**_bold italic text_ next to bold text**`
 
 _**bold italic text** next to italic text_
+`_**bold italic text** next to italic text_`
 
 ~~strikethrough text~~
+`~~strikethrough text~~`
 
 Quoted text:
 >is quoted
+
+`Quoted text:
+>is quoted`
 
 This is how you `quote code`
 
