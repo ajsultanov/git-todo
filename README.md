@@ -21,7 +21,7 @@ headings automatically create anchors
 `[link to heading anchor](#big-heading)`
 
 **bold text**
-`**bold text`
+`**bold text**`
 
 _italic text_
 `_italic text_`
@@ -43,17 +43,21 @@ Quoted text:
 >is quoted
 ```
 
-This is how you `quote code`
-```
-This is how you `quote code`
-```
 
+This is how you `quote code`
+```
+This is how you `quote code`
+```
 
 ```
 you can quote
 multi-line code
 as well
+with three back-ticks
+(```)
 ```
+
+
 You can also let them know how to format syntax highlighting
 
 ruby:
@@ -62,6 +66,8 @@ ruby:
   puts i * i
 end
 ```
+` ```ruby`
+
 sql:
 ```sql
 CREATE TABLE puppies (
@@ -70,7 +76,12 @@ CREATE TABLE puppies (
   breed TEXT
   )
 ```
+` ```sql`
+
+
 And add a [link](google.com)
+`And add a [link](google.com)`
+
 
 section links....................
 
