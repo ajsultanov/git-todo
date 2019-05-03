@@ -11,8 +11,7 @@ headings automatically create anchors
 
 ###### Sixth Heading
 
-#big-heading
-link to heading
+[link to heading](#big-heading)
 
 **bold text**
 
