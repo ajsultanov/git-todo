@@ -1,17 +1,24 @@
 # Big Heading
+`# Big Heading`
 headings automatically create anchors
 
 ## Second Heading
+`## Second Heading`
 
 ### Third Heading
+`### Third Heading`
 
 #### Fourth Heading
+`#### Fourth Heading`
 
 ##### Fifth Heading
+`##### Fifth Heading`
 
 ###### Sixth Heading
+`###### Sixth Heading`
 
-[link to heading](#big-heading)
+[link to heading anchor](#big-heading)
+`[link to heading anchor](#big-heading)`
 
 **bold text**
 
