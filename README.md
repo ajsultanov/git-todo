@@ -80,9 +80,10 @@ CREATE TABLE puppies (
 ` ```sql`
 
 
-And add a [link](google.com)
 
-`And add a [link](google.com)`
+Here is how you add a [link](google.com)
+
+`Here is how you add a [link](google.com)`
 
 
 more..........
