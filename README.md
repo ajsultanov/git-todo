@@ -237,4 +237,4 @@ _   underscore
 `![alt text](image url "optional title")`
 I believe this has to be hosted in one of your repos
 
-![baby bird]()
+![baby bird](/baby-bird-nestling.jpg)
