@@ -148,12 +148,15 @@ You can also add [relative links](docs/contributing.md)<br/>
 And [link to anchors](#big-heading)<br/>
 `And [link to anchors](#big-heading)`
 
-## What's Next
+## Even more stuff
 
 you can mention a `@person` or a `@team` on the project like so
 
 you can reference `#suggested_issues` or `#pull_requests` on the project
 
-
+you can add emojis with `:EMOJICODE:` <br/>
+find a list of all the options [here](https://www.webfx.com/tools/emoji-cheat-sheet/) <br/>
+:smile: :dragon: :baby_symbol: :shipit: :pizza: <br/>
+`:smile: :dragon: :baby_symbol: :shipit: :pizza:`
 
 
