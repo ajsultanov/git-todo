@@ -1,7 +1,11 @@
 # Big Heading
 `# Big Heading`
 
-headings automatically create anchors
+headings automatically create anchors you can link to
+
+[link to heading anchor](#big-heading)
+
+`[link to heading anchor](#big-heading)`
 
 ## Second Heading
 `## Second Heading`
@@ -47,6 +51,8 @@ does <br/> work?
 
 `does <br/> work?`
 yes 
+
+### Lists
 
 
 ## Code Snippets
