@@ -234,7 +234,7 @@ _   underscore
 !   exclamation mark
 ```
 ## Images
-`![alt text](image url "optional title")`
+`![alt text](image url "optional title")`<br/>
 I believe this has to be hosted in one of your repos
 
 ![baby bird](baby-bird_eric-schmuttenmaer-660x441-300x200.jpg)<br/>
