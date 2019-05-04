@@ -63,8 +63,8 @@ This is how you `quote code`
 you can quote
 multi-line code
 as well
-with three back-ticks
-(```)
+with three back-ticks (```)
+before and after
 ```
 
 You can also let them know how to format syntax highlighting
@@ -75,7 +75,7 @@ ruby:
   puts i * i
 end
 ```
-` ```ruby`
+` ```ruby ...``` `
 
 sql:
 ```sql
