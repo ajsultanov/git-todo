@@ -50,6 +50,16 @@ Quoted text:
 Quoted text:
 >is quoted
 ```
+> You can make<br/>
+> the quoted block
+>
+> as big as you want
+```
+> You can make<br/>
+> the quoted block
+>
+> as big as you want
+```
 
 does <br/> work?<br/>
 `does <br/> work?`
