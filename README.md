@@ -1,3 +1,7 @@
+
+
+
+
 # Big Heading
 `# Big Heading`
 
@@ -128,7 +132,6 @@ with three back-ticks<br/>
 before and after<br/>
 \`\`\`
 
-
 You can also tell it to format syntax highlighting
 
 ruby:
@@ -150,6 +153,9 @@ CREATE TABLE puppies (
 ` ```sql ...``` `
   
 ## Links
+
+Plain links are automatically converted to clickable links
+www.github.com
 
 Here is how you add a [link](google.com)<br/>
 `Here is how you add a [link](google.com)`
@@ -185,3 +191,24 @@ First Header | Second Header
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
 Third one down | Oh yeah third one down
+```
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+Third one down | Oh yeah third one down
+```
+a minimum of three hyphens is required under the cell titles
+
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
+
+```
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
+```
+
