@@ -234,4 +234,6 @@ _   underscore
 !   exclamation mark
 ```
 ## Images
-`![alt text](image url)`
+`![alt text](image url "optional title")`
+
+![baby bird](https://images.app.goo.gl/SjYu6fxNc9CQ4DYz8)
