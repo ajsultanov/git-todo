@@ -235,5 +235,6 @@ _   underscore
 ```
 ## Images
 `![alt text](image url "optional title")`
+I believe this has to be hosted in one of your repos
 
-![baby bird](https://images.app.goo.gl/SjYu6fxNc9CQ4DYz8)
+![baby bird]()
