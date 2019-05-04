@@ -176,5 +176,11 @@ Tell Github to ignore markdown formatting with a backslash<br/>
 `\*\*this is not bold\*\*`
 
 ## Media
-
 ...
+
+
+## Tables
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
