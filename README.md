@@ -150,9 +150,9 @@ And [link to anchors](#big-heading)<br/>
 
 ## What's Next
 
-`you can mention a @person or a @team like so`
+you can mention a `@person` or a `@team` on the project like so
 
-`you can reference #suggestions or #pull requests`
+you can reference `#suggested_issues` or `#pull_requests` on the project
 
 
 
