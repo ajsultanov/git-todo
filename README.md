@@ -175,3 +175,5 @@ Tell Github to ignore markdown formatting with a backslash<br/>
 \*\*this is not bold\*\* <br/>
 `\*\*this is not bold\*\*`
 
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
