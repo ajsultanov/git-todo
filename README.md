@@ -43,6 +43,12 @@ Quoted text:
 >is quoted
 ```
 
+does <br/> work?
+
+`does <br/> work?`
+yes 
+
+
 ## Code Snippets
 
 This is how you `quote code`
@@ -87,11 +93,5 @@ Here is how you add a [link](google.com)
 
 [link to heading anchor](#big-heading)
 `[link to heading anchor](#big-heading)`
-
-
-more..........
-
-does <br/> work?
-`does <br/> work?`
 
 
