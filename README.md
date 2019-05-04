@@ -200,6 +200,8 @@ Third one down | Oh yeah third one down
 ```
 a minimum of three hyphens is required under the cell titles
 
+editing cell alignment:
+
 | Left-aligned | Center-aligned | Right-aligned |
 | :---         |     :---:      |          ---: |
 | git status   | git status     | git status    |
