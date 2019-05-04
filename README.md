@@ -27,7 +27,9 @@ headings automatically create anchors you can link to
 `**bold text**`
 
 _italic text_<br/>
-`_italic text_`
+`_italic text_` 
+or 
+`*italic text*`
 
 **_bold italic text_ next to bold text**<br/>
 `**_bold italic text_ next to bold text**`
