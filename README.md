@@ -1,6 +1,4 @@
-
-
-
+[See](https://daringfireball.net/projects/markdown/syntax)
 
 # Big Heading
 `# Big Heading`
