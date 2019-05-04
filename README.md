@@ -85,21 +85,18 @@ CREATE TABLE puppies (
   breed TEXT
   )
 ```
-` ```sql`
+` ```sql ...``` `
   
 ## Links
 
-Here is how you add a [link](google.com)
-
+Here is how you add a [link](google.com)<br/>
 `Here is how you add a [link](google.com)`
 
-You can also add [relative links](docs/contributing.md)
-
+You can also add [relative links](docs/contributing.md)<br/>
 `You can also add [relative links](docs/contributing.md)`
 
-
-[link to heading anchor](#big-heading)
-`[link to heading anchor](#big-heading)`
+And [link to anchors](#big-heading)<br/>
+`And [link to anchors](#big-heading)`
 
 
 
