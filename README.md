@@ -93,6 +93,14 @@ yes
    3. the first character
       - of the preceding item  
 ```
+- [ ] You can make
+- [ ] Little check lists
+- [x] As well!
+```
+- [ ] You can make
+- [ ] Little check lists
+- [x] As well!
+```
 
 ## Code Snippets
 
