@@ -51,6 +51,32 @@ yes
 
 ### Lists
 
+- Lists
+- Are easy
+- To do
+```
+- Lists
+- Are easy
+- To do
+```
+* Asterisks
+* Work
+* As well
+```
+* Asterisks
+* Work
+* As well
+```
+1. Numbered lists
+2. Are straightforward
+3. To create
+```
+1. Numbered lists
+2. Are straightforward
+3. To create
+```
+
+
 
 ## Code Snippets
 
