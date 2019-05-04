@@ -96,8 +96,14 @@ Here is how you add a [link](google.com)
 
 `Here is how you add a [link](google.com)`
 
+You can also add [relative links](docs/contributing.md)
+
+`You can also add [relative links](docs/contributing.md)`
+
 
 [link to heading anchor](#big-heading)
 `[link to heading anchor](#big-heading)`
+
+
 
 
