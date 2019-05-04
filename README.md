@@ -156,7 +156,7 @@ you can reference `#suggested_issues` or `#pull_requests` on the project
 
 you can add emojis with `:EMOJICODE:` <br/>
 find a list of all the options [here](https://www.webfx.com/tools/emoji-cheat-sheet/) <br/>
-:smile: :dragon: :baby_symbol: :shipit: :pizza: <br/>
-`:smile: :dragon: :baby_symbol: :shipit: :pizza:`
+:smile: :dragon: :baby_symbol: :shipit: :pizza: :octocat:<br/>
+`:smile: :dragon: :baby_symbol: :shipit: :pizza: :octocat:`
 
 
