@@ -166,25 +166,6 @@ You can also add [relative links](docs/contributing.md)<br/>
 And [link to anchors](#big-heading)<br/>
 `And [link to anchors](#big-heading)`
 
-## Even more stuff
-
-you can mention a `@person` or a `@team` on the project like so
-
-you can reference `#suggested_issues` or `#pull_requests` on the project
-
-you can add emojis with `:EMOJICODE:` <br/>
-find a list of all the options [here](https://www.webfx.com/tools/emoji-cheat-sheet/) <br/>
-:smile: :dragon: :baby_symbol: :shipit: :pizza: :octocat:<br/>
-`:smile: :dragon: :baby_symbol: :shipit: :pizza: :octocat:`
-
-Tell Github to ignore markdown formatting with a backslash<br/>
-\*\*this is not bold\*\* <br/>
-`\*\*this is not bold\*\*`
-
-## Media
-...
-
-
 ## Tables
 First Header | Second Header
 ------------ | -------------
@@ -214,3 +195,33 @@ editing cell alignment:
 | git diff     | git diff       | git diff      |
 ```
 
+## Even more stuff
+
+you can mention a `@person` or a `@team` on the project like so
+
+you can reference `#suggested_issues` or `#pull_requests` on the project
+
+you can add emojis with `:EMOJICODE:` <br/>
+find a list of all the options [here](https://www.webfx.com/tools/emoji-cheat-sheet/) <br/>
+:smile: :dragon: :baby_symbol: :shipit: :pizza: :octocat:<br/>
+`:smile: :dragon: :baby_symbol: :shipit: :pizza: :octocat:`
+
+Tell Github to ignore markdown formatting with a backslash<br/>
+\*\*this is not bold\*\* <br/>
+`\*\*this is not bold\*\*`
+
+You can backslash-escape the following characters:
+```
+\   backslash
+`   backtick
+*   asterisk
+_   underscore
+{}  curly braces
+[]  square brackets
+()  parentheses
+#   hash mark
++   plus sign
+-   minus sign (hyphen)
+.   dot
+!   exclamation mark
+```
