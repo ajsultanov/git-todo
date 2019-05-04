@@ -116,8 +116,16 @@ as well
 with three back-ticks (```)
 before and after
 ```
+\`\`\`<br/>
+you can quote<br/>
+multi-line code<br/>
+as well<br/>
+with three back-ticks<br/>
+before and after<br/>
+\`\`\`
 
-You can also let them know how to format syntax highlighting
+
+You can also tell it to format syntax highlighting
 
 ruby:
 ```ruby
@@ -159,4 +167,6 @@ find a list of all the options [here](https://www.webfx.com/tools/emoji-cheat-sh
 :smile: :dragon: :baby_symbol: :shipit: :pizza: :octocat:<br/>
 `:smile: :dragon: :baby_symbol: :shipit: :pizza: :octocat:`
 
+Tell Github to ignore markdown formatting with a backslash
+\*\*this is not bold\*\*
 
