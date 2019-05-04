@@ -3,8 +3,7 @@
 
 headings automatically create anchors you can link to
 
-[link to heading anchor](#big-heading)
-
+[link to heading anchor](#big-heading)<br/>
 `[link to heading anchor](#big-heading)`
 
 ## Second Heading
@@ -24,31 +23,29 @@ headings automatically create anchors you can link to
 
 ## Text Formatting
 
-**bold text**
+**bold text**<br/>
 `**bold text**`
 
-_italic text_
+_italic text_<br/>
 `_italic text_`
 
-**_bold italic text_ next to bold text**
+**_bold italic text_ next to bold text**<br/>
 `**_bold italic text_ next to bold text**`
 
-_**bold italic text** next to italic text_
+_**bold italic text** next to italic text_<br/>
 `_**bold italic text** next to italic text_`
 
-~~strikethrough text~~
+~~strikethrough text~~<br/>
 `~~strikethrough text~~`
 
 Quoted text:
->is quoted
-
+>is quoted <br/>
 ```
 Quoted text:
 >is quoted
 ```
 
-does <br/> work?
-
+does <br/> work?<br/>
 `does <br/> work?`
 yes 
 
