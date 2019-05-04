@@ -76,12 +76,12 @@ yes
 - To do
 ```
 * Asterisks
-* Work
-* As well
++ And plus signs
+* Work as well
 ```
 * Asterisks
-* Work
-* As well
++ And plus signs
+* Work as well
 ```
 1. Numbered lists
 2. Are straightforward
