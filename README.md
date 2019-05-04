@@ -75,8 +75,24 @@ yes
 2. Are straightforward
 3. To create
 ```
-
-
+1. Nested lists
+   - Can get
+   - A little complicated
+2. Just make sure
+   1. You put the
+   2. nested item under
+   3. the first character
+      - of the preceding item
+```
+1. Nested lists
+   - Can get
+   - A little complicated
+2. Just make sure
+   1. You put the
+   2. nested item under
+   3. the first character
+      - of the preceding item  
+```
 
 ## Code Snippets
 
