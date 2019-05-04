@@ -167,6 +167,7 @@ find a list of all the options [here](https://www.webfx.com/tools/emoji-cheat-sh
 :smile: :dragon: :baby_symbol: :shipit: :pizza: :octocat:<br/>
 `:smile: :dragon: :baby_symbol: :shipit: :pizza: :octocat:`
 
-Tell Github to ignore markdown formatting with a backslash
+Tell Github to ignore markdown formatting with a backslash<br/>
 \*\*this is not bold\*\*
+`\*\*this is not bold\*\*`
 
