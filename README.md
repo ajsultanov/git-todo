@@ -234,4 +234,4 @@ _   underscore
 !   exclamation mark
 ```
 ## Images
-`![alt text](image url)
+`![alt text](image url)`
