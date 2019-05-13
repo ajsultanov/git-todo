@@ -118,6 +118,14 @@ yes
 - [x] As well!
 ```
 
+testing definition list:
+<dl>
+   <dt>thing</dt>
+   <dd>ok</dd>
+   <dt>thing2</dt>
+   <dd>ok2</dd> 
+</dl>
+
 ## Code Snippets
 
 This is how you `quote code`
