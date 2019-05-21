@@ -70,6 +70,13 @@ does <br/> work?<br/>
 `does <br/> work?`
 yes 
 
+From Wikipedia:
+
+Paragraphs are separated by a blank line.
+
+Two spaces at the end of a line  
+produces a line break.
+
 ## Lists
 
 - Lists
