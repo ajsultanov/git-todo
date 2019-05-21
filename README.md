@@ -1,7 +1,10 @@
 [See](https://daringfireball.net/projects/markdown/syntax)
 
 # Big Heading
-`# Big Heading`
+`# Big Heading`  
+or
+```Big Heading
+===========```
 
 headings automatically create anchors you can link to
 
