@@ -1,7 +1,7 @@
 ### <<<<< rails generators >>>>>
 
 ## a rails project
-technically not a generator<br>
+>technically not a generator<br>
 creates:
 - a whole lot of shit
 
