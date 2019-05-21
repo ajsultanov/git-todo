@@ -1,9 +1,10 @@
 # rails generators
 
-###a rails project
+### a rails project
 technically not a generator<br>
 creates:
-- a whole lot of shit	
+- a whole lot of shit
+
 format:
 - `rails new name-of-my-app`
 
@@ -11,19 +12,18 @@ format:
 rails generate GENERATOR [args] [options]
 ```
 
-to undo a generate command: rails destroy x...
-to not generate new tests: add --no-test-framework
+to undo a generate command: `rails destroy x...` <br>
+to not generate new tests: `add --no-test-framework`
 
 
-
-migration
-=========
+### migration
 creates: 
-	migration file
-	new tests
+- migration file
+- new tests
+
 format: 	
-	rails [g]enerate migration
-		add_x attribute(s):data_type
+	`rails [g]enerate migration`
+		`add_x attribute(s):data_type`
 		remove_x attribute(s):data_type
 		add_ ... _to_x attribute(s):data_type
 		remove_ ... _from_x attribute(s):data_type
