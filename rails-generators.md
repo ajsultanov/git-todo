@@ -1,7 +1,8 @@
 ### <<<<< rails generators >>>>>
 
 ## a rails project
->technically not a generator<br>
+>technically not a generator
+
 creates:
 - a whole lot of shit
 
@@ -42,7 +43,8 @@ format:
   - `Class association(s):association_type`
 
 ## controller
-best for things that do not have models<br>
+>best for things that do not have models
+
 creates: 	
 - controller file
 - adds routes in config/routes
@@ -74,7 +76,8 @@ format:
   - `Class attribute(s):data_type`
 
 ## scaffold
-seems pretty bloated<br>
+>seems pretty bloated
+
 creates:
 - a huge amount of shit
 - migration file
