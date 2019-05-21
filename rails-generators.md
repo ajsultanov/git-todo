@@ -1,19 +1,15 @@
-rails generators
-
+# rails generators
 
 a rails project
-===========================
 technically not a generator
-===========================
 creates:
 	a whole lot of shit
 format:
 	rails new name-of-my-app
 
-
-
-
->>>>>		rails generate GENERATOR [args] [options]
+```ruby
+rails generate GENERATOR [args] [options]
+```
 
 to undo a generate command: rails destroy x...
 to not generate new tests: add --no-test-framework
