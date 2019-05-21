@@ -34,13 +34,14 @@ creates:
 - migration file
 - model file
 - new tests
+
 format: 	
 - `rails [g]enerate model`
   - `Class attribute(s):data_type`
   - `Class association(s):association_type`
 
 ## controller
-best for things that do not have models
+best for things that do not have models<br>
 creates: 	
 - controller file
 - adds routes in config/routes
@@ -50,50 +51,46 @@ creates:
 - Coffeescript file
 - scss file
 - new tests for everything
+
 format:	
 - `rails [g]enerate controller`
   - `name controller_action(s)`
 
-
-
-resource
-========
+## resource
 creates:
-	migration file
-	model file
-	resources call in config/routes
-	controller file
-	view template directory
-	view helper file
-	Coffeescript file
-	scss file
-	new tests for everything
+- migration file
+- model file
+- resources call in config/routes
+- controller file
+- view template directory
+- view helper file
+- Coffeescript file
+- scss file
+- new tests for everything
+	
 format:
-	rails [g]enerate resource
-		Class attribute(s):data_type
+- `rails [g]enerate resource`
+  - `Class attribute(s):data_type`
 
-
-
-scaffold
-====================
-seems pretty bloated
-====================
+## scaffold
+seems pretty bloated<br>
 creates:
-	a huge amount of shit
-	migration file
-	model file
-	resources call in config/routes
-	controller file
-	helper file
-	view template directory
-	view template files for each controller action specified
-	json builder view files?
-	Coffeescript file
-	scss file	
-	new tests for everything
+- a huge amount of shit
+- migration file
+- model file
+- resources call in config/routes
+- controller file
+- helper file
+- view template directory
+- view template files for each controller action specified
+- json builder view files?
+- Coffeescript file
+- scss file	
+- new tests for everything
+
 format:
-	rails [g]enerate scaffold
-		Class attribute(s):data_type
+- `rails [g]enerate scaffold`
+  - `Class attribute(s):data_type`
 
 
 
