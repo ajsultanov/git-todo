@@ -1,10 +1,15 @@
 # rails generators
 
 a rails project
+
 technically not a generator
+
 creates:
+
 	a whole lot of shit
+	
 format:
+
 	rails new name-of-my-app
 
 ```ruby
