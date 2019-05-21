@@ -3,8 +3,10 @@
 # Big Heading
 `# Big Heading`  
 or
-```Big Heading
-===========```
+```
+Big Heading
+===========
+```
 
 headings automatically create anchors you can link to
 
