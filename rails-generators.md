@@ -1,16 +1,11 @@
 # rails generators
 
-a rails project
-
-technically not a generator
-
+###a rails project
+technically not a generator<br>
 creates:
-
-	a whole lot of shit
-	
+- a whole lot of shit	
 format:
-
-	rails new name-of-my-app
+- `rails new name-of-my-app`
 
 ```ruby
 rails generate GENERATOR [args] [options]
