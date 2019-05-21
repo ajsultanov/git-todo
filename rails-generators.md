@@ -1,4 +1,4 @@
-### rails generators
+### <<<<< rails generators >>>>>
 
 ## a rails project
 technically not a generator<br>
