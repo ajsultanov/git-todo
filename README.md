@@ -253,6 +253,13 @@ _   underscore
 .   dot
 !   exclamation mark
 ```
+
+Horizontal rule:
+
+---
+
+`---`
+
 ## Images
 `![alt text](image url "optional title")`<br/>
 I believe this has to be hosted in one of your repos
