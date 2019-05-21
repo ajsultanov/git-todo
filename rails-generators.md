@@ -1,6 +1,6 @@
-# rails generators
+### rails generators
 
-### a rails project
+## a rails project
 technically not a generator<br>
 creates:
 - a whole lot of shit
@@ -16,50 +16,43 @@ to undo a generate command: `rails destroy x...` <br>
 to not generate new tests: `add --no-test-framework`
 
 
-### migration
+## migration
 creates: 
 - migration file
 - new tests
 
 format: 	
-	`rails [g]enerate migration`
-		`add_x attribute(s):data_type`
-		remove_x attribute(s):data_type
-		add_ ... _to_x attribute(s):data_type
-		remove_ ... _from_x attribute(s):data_type
-		change_ ... _to_x attribute(s):data_type
+- `rails [g]enerate migration`
+  - `add_x attribute(s):data_type`
+  - `remove_x attribute(s):data_type`
+  - `add_ ... _to_x attribute(s):data_type`
+  - `remove_ ... _from_x attribute(s):data_type`
+  - `change_ ... _to_x attribute(s):data_type`
 
-
-
-model
-=====
+## model
 creates: 	
-	migration file
-	model file
-	new tests
+- migration file
+- model file
+- new tests
 format: 	
-	rails [g]enerate model
-		Class attribute(s):data_type
-		Class association(s):association_type
+- `rails [g]enerate model`
+  - `Class attribute(s):data_type`
+  - `Class association(s):association_type`
 
-
-
-controller
-=======================================
+## controller
 best for things that do not have models
-=======================================
 creates: 	
-	controller file
-	adds routes in config/routes
-	view template directory
-	view template files for each controller action specified
-	view helper file
-	Coffeescript file
-	scss file
-	new tests for everything
+- controller file
+- adds routes in config/routes
+- view template directory
+- view template files for each controller action specified
+- view helper file
+- Coffeescript file
+- scss file
+- new tests for everything
 format:	
-	rails [g]enerate controller
-		name controller_action(s)
+- `rails [g]enerate controller`
+  - `name controller_action(s)`
 
 
 
