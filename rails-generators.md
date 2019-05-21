@@ -8,6 +8,7 @@ creates:
 format:
 - `rails new name-of-my-app`
 
+main format for generators:
 ```ruby
 rails generate GENERATOR [args] [options]
 ```
