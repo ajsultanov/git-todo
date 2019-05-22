@@ -2,8 +2,8 @@
 https://github.com/ajsultanov/github.io
 
 
-github.io
-A programming blog
+# github.io
+## A programming blog
 
 getting a 404 error for some reason
 
