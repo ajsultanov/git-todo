@@ -18,3 +18,5 @@ jekyll new - Creates a new Jekyll site with default gem-based theme jekyll new -
 >  **( \! )** Hello does this look like a tooltip
 
 >> :smile: Hello does this look like a tooltip
+
+>>> :exclamation: Hello does this look like a tooltip
