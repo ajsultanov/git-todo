@@ -173,7 +173,7 @@ console.log(arr)
 
 > **Note:** It is a good idea to comment the intentional use of the empty statement, as it is not really obvious to distinguish between a normal semicolon.
 
-### `if...else` <a name="ifelse"></a>
+### <a name="ifelse">`if...else`</a>
 
 Executes a statement if a condition is truthy.
 
