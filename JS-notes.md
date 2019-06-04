@@ -3,7 +3,7 @@
 >>> [some markdown stuff](http://assemble.io/docs/Cheatsheet-Markdown.html#named-anchors)
 
 ##### statements
-###### [control flow](#control flow)
+###### [control flow](#control-flow)
 [`Block`](#Block)
 [`break`](#break)
 [`continue`](#continue)
@@ -19,7 +19,7 @@
 ###### [functions](#functions)
 [`function`](#function)
 [`function*`](#function*)
-[`async function`](#async function)
+[`async function`](#async-function)
 [`return`](#return)
 [`class`](#class)
 ###### [iterations](#iterations)
@@ -28,7 +28,7 @@
 [`for each...in`](#for-each...in)
 [`for...in`](#for...in)
 [`for...of`](#for...of)
-[`for await...of`](#for await...of)
+[`for await...of`](#for-await...of)
 [`while`](#while)
 ###### [others](#others)
 [`debugger`](#debugger)
