@@ -1,6 +1,6 @@
 # hello nice yes hello
 
->>> [some markdown stuff](http://assemble.io/docs/Cheatsheet-Markdown.html#named-anchors)
+>>> [> some markdown stuff](http://assemble.io/docs/Cheatsheet-Markdown.html#named-anchors)
 
 ##### statements
 ###### [control flow](#control-flow)
@@ -376,16 +376,158 @@ try {
 
 - `finally_statements` executed after the `try` statement completes, regardless of whether an exception was thrown or caught
 
+`{}` must always be used with a `try` block. At least one `catch` or `finally` statement must be preset. There are three forms this might take:
 
-## i havent finished here...
+  1. `try...catch`
 
+  2. `try...finally`
 
+  3. `try...catch...finally`
 
+A `catch` clause contains statements that specify what to do if an exception is thrown in the `try` block. That is, you want the `try` block to succeed, and if it does not succeed, you want to pass control to the `catch` block. If any statement within the `try` block (or in a function called from within the `try` block) throws an exception, control is immediately shifted to the `catch` clause. If no exception is thrown in the `try` block, the `catch` clause is skipped.
 
+The `finally` clause executes after the `try` block and `catch` clause(s). It always executes, regardless of whether an exception was thrown or caught.
 
+You can nest one or more `try` statements. If an inner `try` statement does not have a `catch` clause, the enclosing `try` statement's `catch` clause is entered.
+
+With unconditional `catch` clauses, the `catch` block is entered when _any_ exception is thrown. Conditional `catch` clauses are deprecated. :neckbeard:
+
+If the `finally` block returns a value, this value becomes the return value of the entire `try-catch-finally` production, regardless of any `return` statements in the `try` and `catch` blocks.
+
+```JavaScript
+try {
+  throw 'myException'; // generates an exception
+}
+catch (e) {
+  // statements to handle any exceptions
+  logMyErrors(e); // pass exception object to error handler
+}
+```
+
+The `catch` block specifies an identifier (`e` in the example above) that holds the value specified by the `throw` statement. The `catch` block is unique in that JavaScript creates this identifier when the `catch` block is entered, and it adds it to the current scope; the identifier lasts only for the duration of the `catch` block; after the `catch` block finishes executing, the identifier is no longer available.
+
+There's a lot more to `try...catch` but like half of it is deprecated...
+
+Ordering:
+
+```JavaScript
+try {
+  try {
+    throw new Error('oops');
+  }
+  finally {
+    console.log('finally');
+  }
+}
+catch (ex) {
+  console.error('outer', ex.message);
+}
+
+// Output:
+// "finally"
+// "outer" "oops"
+```
+
+```JavaScript
+try {
+  try {
+    throw new Error('oops');
+  }
+  catch (ex) {
+    console.error('inner', ex.message);
+  }
+  finally {
+    console.log('finally');
+  }
+}
+catch (ex) {
+  console.error('outer', ex.message);
+}
+
+// Output:
+// "inner" "oops"
+// "finally"
+```
 
 ## declarations
+
+### `var`
+
+Declares a variable, optionally initializing it to a value.
+
+```javascript
+var varname1 [= value1] [, varname2 [= value2] ... [, varnameN [= valueN]]];
+```
+
+- `varnameN` can be any legal identifier
+
+- `valueN` initial variable value, any legal expression. default is _undefined_
+
+Scope of variables declared with `var` is _execution context_, be it the enclosing function or global. If you redeclare a JavaScript variable, it will not lose its value. Assigning a value to an undeclared variable implicitly creates it as a global variable.
+
+It is recommended to always declare variables at the top of their scope (the top of global code and the top of function code) so it's clear which variables are function scoped (local) and which are resolved on the scope chain.
+
+Declaring and initializing two variables:
+
+`var a = 0, b = 0;`
+
+### `let`
+
+Declares a block scope local variable, optionally initializing it to a value. Redeclaring the same variable within the same function or block scope raises a SyntaxError.
+
+```javascript
+let x = 1;
+switch(x) {
+  case 0:
+    let foo;
+    break;
+
+  case 1:
+    let foo; // SyntaxError for redeclaration.
+    break;
+}
+```
+
+#### `let` variables are not hoisted
+
+Refer to the [_temporal dead zone... :skull:_](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let#Temporal_dead_zone)
+
+```javascript
+function do_something() {
+  console.log(bar); // undefined
+  console.log(foo); // ReferenceError
+  var bar = 1;
+  let foo = 2;
+}
+```
+
+```javascript
+function go(n) {
+  // n here is defined!
+  console.log(n); // Object {a: [1,2,3]}
+
+  for (let n of n.a) { // ReferenceError
+    console.log(n);
+  }
+}
+
+go({a: [1, 2, 3]});
+```
+
+### `const`
+
+Declares a block scope local variable, a value must be assigned. The value of a constant cannot change through reassignment, and it can't be redeclared.
+
+```javascript
+const name1 = value1 [, name2 = value2 [, ... [, nameN = valueN]]];
+```
+
+The `const` declaration creates a read-only reference to a value. It does **not** mean the value it holds is immutable, just that the variable identifier cannot be reassigned.
+
 ## functions
+
+
+
 ## iterations
 ## others
 
