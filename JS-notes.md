@@ -25,7 +25,7 @@
 ###### [iterations](#iterations)
 [`do...while`](#do...while)
 [`for`](#for)
-[`for each...in`](#for each...in)
+[`for each...in`](#for-each...in)
 [`for...in`](#for...in)
 [`for...of`](#for...of)
 [`for await...of`](#for await...of)
@@ -251,8 +251,9 @@ switch (expression) {
 
 - _optional_ **`case valueN`** if `expression` matches the specified `valueN`, the statements inside the case clause are executed until either the end of the switch statement or a `break`
 
-- _optional_ `default`
+- _optional_ `default` executed if none of the `case` clauses match the `expression`
 
+**Remember:** if break is omitted, the program continues execution at the next statement in the switch statement.
 
 ```JavaScript
 var expr = 'Papayas';
@@ -269,6 +270,124 @@ switch (expr) {
     console.log('Sorry, we are out of ' + expr + '.');
 }
 ```
+
+Multi-case (taking advantage of missing-`break` statement behavior):
+```JavaScript
+var Animal = 'Giraffe';
+switch (Animal) {
+  case 'Cow':
+  case 'Giraffe':
+  case 'Dog':
+  case 'Pig':
+    console.log('This animal will go on Noah\'s Ark.');
+    break;
+  case 'Dinosaur':
+  default:
+    console.log('This animal will not.');
+}
+```
+
+Block-scope variables in `switch`:
+
+```JavaScript
+const action = 'say_hello';
+switch (action) {
+  case 'say_hello':
+    let message = 'hello';
+    console.log(message);
+    break;
+  case 'say_hi':
+    let message = 'hi';
+    console.log(message);
+    break;
+  default:
+    console.log('Empty action received.');
+    break;
+}
+// Uncaught SyntaxError: Identifier 'message' has already been declared
+```
+
+Fixed with enclosing brackets:
+
+```JavaScript
+const action = 'say_hello';
+switch (action) {
+  case 'say_hello': { // added brackets
+    let message = 'hello';
+    console.log(message);
+    break;
+  } // added brackets
+  case 'say_hi': { // added brackets
+    let message = 'hi';
+    console.log(message);
+    break;
+  } // added brackets
+  default: { // added brackets
+    console.log('Empty action received.');
+    break;
+  } // added brackets
+}
+// hello
+```
+
+- [switch statement multiple cases (stack overflow)](http://stackoverflow.com/questions/13207927/switch-statement-multiple-cases-in-javascript)
+
+### `throw`
+
+The `throw` statement throws a user-defined exception. Execution of the current function will stop and control will be passed to the first `catch` block in the call stack. If no `catch` block exists among caller functions, the program will terminate.
+
+```javascript
+throw _expression_;
+```
+
+-`expression` the expression to throw
+
+**Note:** the throw statement is affected by automatic semicolon insertion (ASI) as no line terminator between the throw keyword and the expression is allowed.
+
+There are some [long examples](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw) online.
+
+### `try...catch`
+
+Marks a block of statements to try, and specifies a response, should an exception be thrown.
+
+```JavaScript
+try {
+  try_statements
+}
+[catch (exception_var_1 if condition_1) { // non-standard
+  catch_statements_1
+}]
+...
+[catch (exception_var_2) {
+  catch_statements_2
+}]
+[finally {
+  finally_statements
+}]
+```
+
+- `try_statements` the statements to be executed
+
+- `catch_statements_1` `catch_statements_2` executed if an exception is thrown in the `try` block
+
+- `exception_var_1` `exception_var_2`  identifier to hold an exception object for the associated `catch` clause
+
+- `condition1` a conditional expression
+
+- `finally_statements` executed after the `try` statement completes, regardless of whether an exception was thrown or caught
+
+
+## i havent finished here...
+
+
+
+
+
+
+## declarations
+## functions
+## iterations
+## others
 
 ---
 
