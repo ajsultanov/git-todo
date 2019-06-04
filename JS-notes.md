@@ -8,7 +8,7 @@
 [`break`](#break)
 [`continue`](#continue)
 [`Empty`](#Empty)
-[`if...else`](#if...else)
+[`if...else`](#ifelse)
 [`switch`](#switch)
 [`throw`](#throw)
 [`try...catch`](#try...catch)
@@ -173,7 +173,7 @@ console.log(arr)
 
 > **Note:** It is a good idea to comment the intentional use of the empty statement, as it is not really obvious to distinguish between a normal semicolon.
 
-### `if...else`
+### `if...else` <a name="ifelse"></a>
 
 Executes a statement if a condition is truthy.
 
