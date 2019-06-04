@@ -2,44 +2,46 @@
 
 >>> [> some markdown stuff](http://assemble.io/docs/Cheatsheet-Markdown.html#named-anchors)
 
+>>>> [this is what im referencing to build this guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements)
+
 ##### statements
 ###### [control flow](#control-flow)
-[`Block`](#Block)
-[`break`](#break)
-[`continue`](#continue)
-[`Empty`](#Empty)
-[`if...else`](#ifelse)
-[`switch`](#switch)
-[`throw`](#throw)
-[`try...catch`](#try...catch)
+[`Block`](#Block) &nbsp;
+[`break`](#break) &nbsp;
+[`continue`](#continue) &nbsp;
+[`Empty`](#Empty) &nbsp;
+[`if...else`](#ifelse) &nbsp;
+[`switch`](#switch) &nbsp;
+[`throw`](#throw) &nbsp;
+[`try...catch`](#trycatch)
 ###### [declarations](#declarations)
-[`var`](#var)
-[`let`](#let)
+[`var`](#var) &nbsp;
+[`let`](#let) &nbsp;
 [`const`](#const)
 ###### [functions](#functions)
-[`function`](#function)
-[`function*`](#function*)
-[`async function`](#async-function)
-[`return`](#return)
+[`function`](#function) &nbsp;
+[`function*`](#function*) &nbsp;
+[`async function`](#async-function) &nbsp;
+[`return`](#return) &nbsp;
 [`class`](#class)
 ###### [iterations](#iterations)
-[`do...while`](#do...while)
-[`for`](#for)
-[`for each...in`](#for-each...in)
-[`for...in`](#for...in)
-[`for...of`](#for...of)
-[`for await...of`](#for-await...of)
+[`do...while`](#do...while) &nbsp;
+[`for`](#for) &nbsp;
+[`for each...in`](#for-each...in) &nbsp;
+[`for...in`](#for...in) &nbsp;
+[`for...of`](#for...of) &nbsp;
+[`for await...of`](#for-await...of) &nbsp;
 [`while`](#while)
 ###### [others](#others)
-[`debugger`](#debugger)
-[`export`](#export)
-[`import`](#import)
-[`import.meta`](#import.meta)
+[`debugger`](#debugger) &nbsp;
+[`export`](#export) &nbsp;
+[`import`](#import) &nbsp;
+[`import.meta`](#import.meta) &nbsp;
 [`label`](#label)
 `with 🤮`
 
 ##### [array methods](#array-methods)
-[`filter`](#filter)
+[`filter`](#filter) &nbsp;
 <br/>...
 
 ## control flow
@@ -346,7 +348,7 @@ throw _expression_;
 
 There are some [long examples](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw) online.
 
-### `try...catch`
+### <a name="trycatch">`try...catch`</a>
 
 Marks a block of statements to try, and specifies a response, should an exception be thrown.
 
@@ -526,10 +528,46 @@ The `const` declaration creates a read-only reference to a value. It does **not*
 
 ## functions
 
+### function
+
+### function*
+
+### async function
+
+### return
+
+### class
 
 
 ## iterations
+
+### do...while
+
+### for
+
+### for each...in
+
+### for...in
+
+### for...of
+
+### for await...of
+
+### while
+
+
 ## others
+
+### debugger
+
+### export
+
+### import
+
+### import.meta
+
+### label
+
 
 ---
 
